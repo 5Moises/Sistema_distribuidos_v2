@@ -33,16 +33,16 @@ public class PipeOrd {
 					 PrintWriter output = new PrintWriter(pw);
 					 
 						 opc=Integer.parseInt(JOptionPane.showInputDialog(" 1. Ordenaciones \n 2. Datos de un objeto 3D \n 0. Salir"));
-						 int x=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada X"));
-							int y=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada Y"));
-							int z=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada Z"));
+						 
 						 switch (opc)
 							{
 								case 1:
 								   new OrdThread(output, br).start();
 								break;	
 								case 2:								
-									
+									int x=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada X"));
+									int y=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada Y"));
+									int z=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la coordenada Z"));
 									int tarea=Integer.parseInt(JOptionPane.showInputDialog(" 1. Traslación  \n 2. Rotación \n 3.Escalación "));
 									
 									Canal DD = new Canal(x,y,z);

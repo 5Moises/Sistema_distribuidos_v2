@@ -1,3 +1,3 @@
-Nueva coordenada de X: 20
-Nueva coordenada de Y: 25
-Nueva coordenada de Z: 30
+Nueva coordenada de X: 112
+Nueva coordenada de Y: 14
+Nueva coordenada de Z: 10
